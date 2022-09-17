@@ -7,6 +7,10 @@
 > to change the directory of a file first enter the file => cd folder/fileName or open gitBash in file 
 > to create a repository for github => git init
 > to check in whether or not your files have been save in order to commit them => git status
-> to stage or track a file => git add file name or git add . for all
+> to stage or track a file => git add file name or git add . for all --all
 > to unstage or untrack a file => git rm --cached file name
 > to ignore a file create an ignore file => gitignore then go inside of it and tell it which file to ignore i.e *txt
+> to commit means taking of snapshot of your projects right now => git commit -m "message"
+> to view what has been modified => git diff
+> to stage a file so when you commit it does not get commited => git restore --staged fileName
+> to skip the staging step => git commit -a -m "updated text to free range"
