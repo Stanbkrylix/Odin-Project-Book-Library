@@ -1,0 +1,12 @@
+> to know which user is commiting we have declare the user' name =>  git config --global user.name 'name'
+> to know which user is commiting we have declare the user' email =>  git config --global user.email
+> to create a branch => git config --global init.default branch main
+> if you want more info about a command => git config -h
+> to open document with commands => git help git
+> to clear terminal => clear
+> to change the directory of a file first enter the file => cd folder/fileName or open gitBash in file 
+> to create a repository for github => git init
+> to check in whether or not your files have been save in order to commit them => git status
+> to stage or track a file => git add file name or git add . for all
+> to unstage or untrack a file => git rm --cached file name
+> to ignore a file create an ignore file => gitignore then go inside of it and tell it which file to ignore i.e *txt
